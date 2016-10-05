@@ -294,7 +294,7 @@ textures/common/portal
 	portal
 
 	{
-		map textures/radiant/transparent_d.tga
+		map textures/radiant/transparent_d
 		blendfunc GL_ONE GL_ONE_MINUS_SRC_ALPHA
 		depthWrite
 	}
