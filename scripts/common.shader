@@ -59,8 +59,6 @@ textures/common/botclip
 textures/common/caulk
 {
 	qer_editorimage textures/radiant/caulk
-	
-	qer_trans 0.6
 
 	surfaceparm nodraw
 }
@@ -211,7 +209,7 @@ textures/common/mirror
 	portal
 
 	{
-		map textures/common/transparent_d
+		map textures/radiant/transparent_d
 		blendfunc GL_ONE GL_ONE_MINUS_SRC_ALPHA
 		depthWrite
 	}
@@ -296,7 +294,7 @@ textures/common/portal
 	portal
 
 	{
-		map textures/common/transparent_d.tga
+		map textures/radiant/transparent_d.tga
 		blendfunc GL_ONE GL_ONE_MINUS_SRC_ALPHA
 		depthWrite
 	}
