@@ -1,0 +1,18 @@
+textures/radiant/*
+
+    Authors
+
+        Stijn 'Ingar' Buys <ingar@osirion.org> (http://osirion.org/)
+		Base set
+
+        Maximilian 'Viech' Stahlberg
+		Additional textures, color modifications
+
+    License
+
+         CC0 1.0 Universal (https://creativecommons.org/publicdomain/zero/1.0/)
+
+    Source
+
+        File transfer
+
