@@ -1,4 +1,4 @@
-tex-common
-----------
+common map editor texture set
+-----------------------------
 
-This is a texture package for the [Unvanquished](https://www.unvanquished.net) game.
+This is texture package for the [Unvanquished](https://www.unvanquished.net) game.

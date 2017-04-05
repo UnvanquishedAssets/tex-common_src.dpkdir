@@ -37,7 +37,7 @@ textures/common/black
 	surfaceparm nolightmap
 	surfaceparm nomarks
 
-	diffuseMap textures/common/black_d
+	diffuseMap textures/common_src/black_d
 }
 
 // Clips bots but lets everything else pass.
@@ -149,7 +149,7 @@ textures/common/invisible
 	surfaceparm trans
 
 	{
-		map textures/common/transparent_d
+		map textures/common_src/transparent_d
 		alphaFunc GE128
 	}
 }
@@ -209,7 +209,7 @@ textures/common/mirror
 	portal
 
 	{
-		map textures/common/transparent_d
+		map textures/common_src/transparent_d
 		blendfunc GL_ONE GL_ONE_MINUS_SRC_ALPHA
 		depthWrite
 	}
@@ -299,7 +299,7 @@ textures/common/portal
 	portal
 
 	{
-		map textures/common/transparent_d
+		map textures/common_src/transparent_d
 		blendfunc GL_ONE GL_ONE_MINUS_SRC_ALPHA
 		depthWrite
 	}
