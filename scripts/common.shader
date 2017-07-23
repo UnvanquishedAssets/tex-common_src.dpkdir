@@ -18,7 +18,7 @@
 // Currently not properly supported by the Daemon engine. (2014-03)
 textures/common/areaportal
 {
-	qer_editorimage textures/common/areaportal
+	qer_editorimage textures/common_src/areaportal
 
 	qer_trans 0.4
 
@@ -32,7 +32,7 @@ textures/common/areaportal
 // A solid wall that always appears pitch black.
 textures/common/black
 {
-	qer_editorimage textures/common/black
+	qer_editorimage textures/common_src/black
 
 	surfaceparm nolightmap
 	surfaceparm nomarks
@@ -44,7 +44,7 @@ textures/common/black
 // Currently not supported by the Daemon engine. (2014-03)
 textures/common/botclip
 {
-	qer_editorimage textures/common/botclip
+	qer_editorimage textures/common_src/botclip
 
 	qer_trans 0.4
 
@@ -58,7 +58,7 @@ textures/common/botclip
 // Usually used on the non-visible sides of regular brushes.
 textures/common/caulk
 {
-	qer_editorimage textures/common/caulk
+	qer_editorimage textures/common_src/caulk
 
 	surfaceparm nodraw
 }
@@ -66,7 +66,7 @@ textures/common/caulk
 // Landing on this invisible surface will prevent fall damage.
 textures/common/cushion
 {
-	qer_editorimage textures/common/cushion
+	qer_editorimage textures/common_src/cushion
 
 	qer_nocarve
 	qer_trans 0.5
@@ -80,7 +80,7 @@ textures/common/cushion
 // Currently not supported by the Daemon engine. (2014-03)
 textures/common/donotenter
 {
-	qer_editorimage textures/common/donotenter
+	qer_editorimage textures/common_src/donotenter
 
 	qer_trans 0.5
 
@@ -97,7 +97,7 @@ textures/common/donotenter
 // Also known as "full_clip" and "weapclip".
 textures/common/fullclip
 {
-	qer_editorimage textures/common/fullclip
+	qer_editorimage textures/common_src/fullclip
 
 	qer_trans 0.4
 
@@ -110,7 +110,7 @@ textures/common/fullclip
 // Can be used to optimize visibility and thus ingame performance.
 textures/common/hint
 {
-	qer_editorimage textures/common/hint
+	qer_editorimage textures/common_src/hint
 
 	qer_nocarve
 	qer_trans 0.3
@@ -125,7 +125,7 @@ textures/common/hint
 // Used on all other surfaces of a "hint" brush.
 textures/common/hintskip
 {
-	qer_editorimage textures/common/hintskip
+	qer_editorimage textures/common_src/hintskip
 
 	qer_nocarve
 	qer_trans 0.3
@@ -141,7 +141,7 @@ textures/common/hintskip
 // Behaves like a perfectly translucent window, can be used as a placeholder.
 textures/common/invisible
 {
-	qer_editorimage textures/common/invisible
+	qer_editorimage textures/common_src/invisible
 
 	qer_trans 0.4
 
@@ -158,7 +158,7 @@ textures/common/invisible
 // Use this around your actual ladder geometry.
 textures/common/ladder
 {
-	qer_editorimage textures/common/ladder
+	qer_editorimage textures/common_src/ladder
 
 	qer_trans 0.5
 
@@ -174,7 +174,7 @@ textures/common/ladder
 // area where models can exist on the map.
 textures/common/lightgrid
 {
-	qer_editorimage textures/common/lightgrid
+	qer_editorimage textures/common_src/lightgrid
 
 	qer_trans 0.5
 
@@ -188,7 +188,7 @@ textures/common/lightgrid
 // Like "clip", but creates metal step sounds when walking on top.
 textures/common/metalclip
 {
-	qer_editorimage textures/common/metalclip
+	qer_editorimage textures/common_src/metalclip
 
 	qer_trans 0.4
 
@@ -202,7 +202,7 @@ textures/common/metalclip
 // Technically the same as portal.
 textures/common/mirror
 {
-	qer_editorimage textures/common/mirror
+	qer_editorimage textures/common_src/mirror
 
 	surfaceparm nolightmap
 
@@ -220,7 +220,7 @@ textures/common/mirror
 // If you want to be able to shoot through the fence, use "clip" instead.
 textures/common/nodraw
 {
-	qer_editorimage textures/common/nodraw
+	qer_editorimage textures/common_src/nodraw
 
 	qer_trans 0.4
 
@@ -232,7 +232,7 @@ textures/common/nodraw
 // Can be used on the sides of decal brushes.
 textures/common/nodrawnonsolid
 {
-	qer_editorimage textures/common/nodrawnonsolid
+	qer_editorimage textures/common_src/nodrawnonsolid
 
 	qer_trans 0.4
 
@@ -244,7 +244,7 @@ textures/common/nodrawnonsolid
 // Corpses don't remain in this area.
 textures/common/nodrop
 {
-	qer_editorimage textures/common/nodrop
+	qer_editorimage textures/common_src/nodrop
 
 	qer_nocarve
 	qer_trans 0.5
@@ -255,17 +255,36 @@ textures/common/nodrop
 	surfaceparm trans
 }
 
+// editor image fallback for missing shader
+textures/common/notex
+{
+	qer_editorimage textures/common_src/notex
+}
+
+// editor image fallback for shader without editor image
+textures/common/shadernotex
+{
+	qer_editorimage textures/common_src/shadernotex
+}
+
 // textures/radiant/notex is used by radiant based editors, don't remove it
-// gtkradiant can't start without it and this path is hardcoded as textures/radiant/notex
+// GtkRadiant can't start without it and this path is hardcoded as "textures/radiant/notex"
 textures/radiant/notex
 {
-	qer_editorimage textures/common/notex
+	qer_editorimage textures/common_src/notex
+}
+
+// textures/radiant/shadernotex.* is used by radiant based editors, don't remove it
+// GtkRadiant hardcodes this path too
+textures/radiant/shadernotex
+{
+	qer_editorimage textures/common_src/shadernotex
 }
 
 // Used on a small cube, the center defines the origin of the brush group.
 textures/common/origin
 {
-	qer_editorimage textures/common/origin
+	qer_editorimage textures/common_src/origin
 
 	qer_nocarve
 	qer_trans 0.5
@@ -280,7 +299,7 @@ textures/common/origin
 // Also known as "clip".
 textures/common/playerclip
 {
-	qer_editorimage textures/common/playerclip
+	qer_editorimage textures/common_src/playerclip
 
 	qer_trans 0.4
 
@@ -292,7 +311,7 @@ textures/common/playerclip
 
 textures/common/portal
 {
-	qer_editorimage textures/common/portal
+	qer_editorimage textures/common_src/portal
 
 	surfaceparm nolightmap
 
@@ -305,11 +324,9 @@ textures/common/portal
 	}
 }
 
-// textures/common/shadernotex.* is used by radiant based editors, don't remove it
-
 textures/common/slick
 {
-	qer_editorimage textures/common/slick
+	qer_editorimage textures/common_src/slick
 
 	qer_trans 0.5
 
@@ -320,7 +337,7 @@ textures/common/slick
 
 textures/common/terrain
 {
-	qer_editorimage textures/common/terrain
+	qer_editorimage textures/common_src/terrain
 
 	q3map_terrain
 
@@ -330,7 +347,7 @@ textures/common/terrain
 // Also known as "terrain2".
 textures/common/terrain_dust
 {
-	qer_editorimage textures/common/terrain_dust
+	qer_editorimage textures/common_src/terrain_dust
 
 	q3map_terrain
 
@@ -341,7 +358,7 @@ textures/common/terrain_dust
 // Defines trigger areas.
 textures/common/trigger
 {
-	qer_editorimage textures/common/trigger
+	qer_editorimage textures/common_src/trigger
 
 	qer_nocarve
 	qer_trans 0.5
@@ -352,7 +369,7 @@ textures/common/trigger
 // Unvanquished specific: Disallows building to both teams.
 textures/common/nobuild
 {
-	qer_editorimage textures/common/nobuild
+	qer_editorimage textures/common_src/nobuild
 
 	qer_trans 0.5
 
@@ -365,7 +382,7 @@ textures/common/nobuild
 // Unvanquished specific: Disallows building to the alien team.
 textures/common/noalienbuild
 {
-	qer_editorimage textures/common/noalienbuild
+	qer_editorimage textures/common_src/noalienbuild
 
 	qer_trans 0.5
 
@@ -378,7 +395,7 @@ textures/common/noalienbuild
 // Unvanquished specific: Disallows building to the human team.
 textures/common/nohumanbuild
 {
-	qer_editorimage textures/common/nohumanbuild
+	qer_editorimage textures/common_src/nohumanbuild
 
 	qer_trans 0.5
 
