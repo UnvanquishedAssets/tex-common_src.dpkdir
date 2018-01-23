@@ -267,20 +267,6 @@ textures/common/shadernotex
 	qer_editorimage textures/common_src/shadernotex
 }
 
-// textures/radiant/notex is used by radiant based editors, don't remove it
-// GtkRadiant can't start without it and this path is hardcoded as "textures/radiant/notex"
-textures/radiant/notex
-{
-	qer_editorimage textures/common_src/notex
-}
-
-// textures/radiant/shadernotex.* is used by radiant based editors, don't remove it
-// GtkRadiant hardcodes this path too
-textures/radiant/shadernotex
-{
-	qer_editorimage textures/common_src/shadernotex
-}
-
 // Used on a small cube, the center defines the origin of the brush group.
 textures/common/origin
 {
