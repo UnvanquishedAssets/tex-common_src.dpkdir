@@ -391,3 +391,85 @@ textures/common/nohumanbuild
 	surfaceparm trans
 }
 
+// Terrain alpha blending
+
+// primary texture only
+textures/common/alpha_000
+{
+	qer_editorimage textures/common_src/alpha_000
+	qer_trans 0.75
+
+	q3map_alphaMod volume
+	q3map_alphaMod set 0
+
+	surfaceparm trans
+	surfaceparm nodraw
+	surfaceparm nonsolid
+}
+
+textures/common/alpha_025
+{
+	qer_editorimage textures/common_src/alpha_025
+	qer_trans 0.80
+
+	q3map_alphaMod volume
+	q3map_alphaMod set 0.25
+
+	surfaceparm trans
+	surfaceparm nodraw
+	surfaceparm nonsolid
+}
+
+// equal mix of both primary and secondary textures
+textures/common/alpha_050
+{
+	qer_editorimage textures/common_src/alpha_050
+	qer_trans 0.80
+
+	q3map_alphaMod volume
+	q3map_alphaMod set 0.50
+
+	surfaceparm trans
+	surfaceparm nodraw
+	surfaceparm nonsolid
+}
+
+textures/common/alpha_075
+{
+	qer_editorimage textures/common_src/alpha_075
+	qer_trans 0.80
+
+	q3map_alphaMod volume
+	q3map_alphaMod set 0.75
+
+	surfaceparm trans
+	surfaceparm nodraw
+	surfaceparm nonsolid
+}
+
+textures/common/alpha_085
+{
+	qer_editorimage textures/common_src/alpha_085
+	qer_trans 0.80
+
+	q3map_alphaMod volume
+	q3map_alphaMod set 0.85
+
+	surfaceparm trans
+	surfaceparm nodraw
+	surfaceparm nonsolid
+}
+
+// secondary texture only
+textures/common/alpha_100
+{
+	qer_editorimage textures/common_src/alpha_100
+	qer_trans 0.80
+
+	q3map_alphaMod volume
+	q3map_alphaMod set 1.0
+
+	surfaceparm trans
+	surfaceparm nodraw
+	surfaceparm nonsolid
+}
