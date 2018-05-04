@@ -18,7 +18,7 @@
 // Currently not properly supported by the Daemon engine. (2014-03)
 textures/common/areaportal
 {
-	qer_editorimage textures/common_src/areaportal
+	qer_editorimage textures/common_src/areaportal_p
 
 	qer_trans 0.4
 
@@ -32,7 +32,7 @@ textures/common/areaportal
 // A solid wall that always appears pitch black.
 textures/common/black
 {
-	qer_editorimage textures/common_src/black
+	qer_editorimage textures/common_src/black_p
 
 	surfaceparm nolightmap
 	surfaceparm nomarks
@@ -44,7 +44,7 @@ textures/common/black
 // Currently not supported by the Daemon engine. (2014-03)
 textures/common/botclip
 {
-	qer_editorimage textures/common_src/botclip
+	qer_editorimage textures/common_src/botclip_p
 
 	qer_trans 0.4
 
@@ -58,7 +58,7 @@ textures/common/botclip
 // Usually used on the non-visible sides of regular brushes.
 textures/common/caulk
 {
-	qer_editorimage textures/common_src/caulk
+	qer_editorimage textures/common_src/caulk_p
 
 	surfaceparm nodraw
 }
@@ -66,7 +66,7 @@ textures/common/caulk
 // Landing on this invisible surface will prevent fall damage.
 textures/common/cushion
 {
-	qer_editorimage textures/common_src/cushion
+	qer_editorimage textures/common_src/cushion_p
 
 	qer_nocarve
 	qer_trans 0.5
@@ -80,7 +80,7 @@ textures/common/cushion
 // Currently not supported by the Daemon engine. (2014-03)
 textures/common/donotenter
 {
-	qer_editorimage textures/common_src/donotenter
+	qer_editorimage textures/common_src/donotenter_p
 
 	qer_trans 0.5
 
@@ -97,7 +97,7 @@ textures/common/donotenter
 // Also known as "full_clip" and "weapclip".
 textures/common/fullclip
 {
-	qer_editorimage textures/common_src/fullclip
+	qer_editorimage textures/common_src/fullclip_p
 
 	qer_trans 0.4
 
@@ -110,7 +110,7 @@ textures/common/fullclip
 // Can be used to optimize visibility and thus ingame performance.
 textures/common/hint
 {
-	qer_editorimage textures/common_src/hint
+	qer_editorimage textures/common_src/hint_p
 
 	qer_nocarve
 	qer_trans 0.3
@@ -125,7 +125,7 @@ textures/common/hint
 // Used on all other surfaces of a "hint" brush.
 textures/common/hintskip
 {
-	qer_editorimage textures/common_src/hintskip
+	qer_editorimage textures/common_src/hintskip_p
 
 	qer_nocarve
 	qer_trans 0.3
@@ -141,7 +141,7 @@ textures/common/hintskip
 // Behaves like a perfectly translucent window, can be used as a placeholder.
 textures/common/invisible
 {
-	qer_editorimage textures/common_src/invisible
+	qer_editorimage textures/common_src/invisible_p
 
 	qer_trans 0.4
 
@@ -158,7 +158,7 @@ textures/common/invisible
 // Use this around your actual ladder geometry.
 textures/common/ladder
 {
-	qer_editorimage textures/common_src/ladder
+	qer_editorimage textures/common_src/ladder_p
 
 	qer_trans 0.5
 
@@ -174,7 +174,7 @@ textures/common/ladder
 // area where models can exist on the map.
 textures/common/lightgrid
 {
-	qer_editorimage textures/common_src/lightgrid
+	qer_editorimage textures/common_src/lightgrid_p
 
 	qer_trans 0.5
 
@@ -188,7 +188,7 @@ textures/common/lightgrid
 // Like "clip", but creates metal step sounds when walking on top.
 textures/common/metalclip
 {
-	qer_editorimage textures/common_src/metalclip
+	qer_editorimage textures/common_src/metalclip_p
 
 	qer_trans 0.4
 
@@ -202,7 +202,7 @@ textures/common/metalclip
 // Technically the same as portal.
 textures/common/mirror
 {
-	qer_editorimage textures/common_src/mirror
+	qer_editorimage textures/common_src/mirror_p
 
 	surfaceparm nolightmap
 
@@ -220,7 +220,7 @@ textures/common/mirror
 // If you want to be able to shoot through the fence, use "clip" instead.
 textures/common/nodraw
 {
-	qer_editorimage textures/common_src/nodraw
+	qer_editorimage textures/common_src/nodraw_p
 
 	qer_trans 0.4
 
@@ -232,7 +232,7 @@ textures/common/nodraw
 // Can be used on the sides of decal brushes.
 textures/common/nodrawnonsolid
 {
-	qer_editorimage textures/common_src/nodrawnonsolid
+	qer_editorimage textures/common_src/nodrawnonsolid_p
 
 	qer_trans 0.4
 
@@ -244,7 +244,7 @@ textures/common/nodrawnonsolid
 // Corpses don't remain in this area.
 textures/common/nodrop
 {
-	qer_editorimage textures/common_src/nodrop
+	qer_editorimage textures/common_src/nodrop_p
 
 	qer_nocarve
 	qer_trans 0.5
@@ -258,19 +258,19 @@ textures/common/nodrop
 // editor image fallback for missing shader
 textures/common/notex
 {
-	qer_editorimage textures/common_src/notex
+	qer_editorimage textures/common_src/notex_p
 }
 
 // editor image fallback for shader without editor image
 textures/common/shadernotex
 {
-	qer_editorimage textures/common_src/shadernotex
+	qer_editorimage textures/common_src/shadernotex_p
 }
 
 // Used on a small cube, the center defines the origin of the brush group.
 textures/common/origin
 {
-	qer_editorimage textures/common_src/origin
+	qer_editorimage textures/common_src/origin_p
 
 	qer_nocarve
 	qer_trans 0.5
@@ -285,7 +285,7 @@ textures/common/origin
 // Also known as "clip".
 textures/common/playerclip
 {
-	qer_editorimage textures/common_src/playerclip
+	qer_editorimage textures/common_src/playerclip_p
 
 	qer_trans 0.4
 
@@ -297,7 +297,7 @@ textures/common/playerclip
 
 textures/common/portal
 {
-	qer_editorimage textures/common_src/portal
+	qer_editorimage textures/common_src/portal_p
 
 	surfaceparm nolightmap
 
@@ -312,7 +312,7 @@ textures/common/portal
 
 textures/common/slick
 {
-	qer_editorimage textures/common_src/slick
+	qer_editorimage textures/common_src/slick_p
 
 	qer_trans 0.5
 
@@ -323,7 +323,7 @@ textures/common/slick
 
 textures/common/terrain
 {
-	qer_editorimage textures/common_src/terrain
+	qer_editorimage textures/common_src/terrain_p
 
 	q3map_terrain
 
@@ -333,7 +333,7 @@ textures/common/terrain
 // Also known as "terrain2".
 textures/common/terrain_dust
 {
-	qer_editorimage textures/common_src/terrain_dust
+	qer_editorimage textures/common_src/terrain_dust_p
 
 	q3map_terrain
 
@@ -344,7 +344,7 @@ textures/common/terrain_dust
 // Defines trigger areas.
 textures/common/trigger
 {
-	qer_editorimage textures/common_src/trigger
+	qer_editorimage textures/common_src/trigger_p
 
 	qer_nocarve
 	qer_trans 0.5
@@ -355,7 +355,7 @@ textures/common/trigger
 // Unvanquished specific: Disallows building to both teams.
 textures/common/nobuild
 {
-	qer_editorimage textures/common_src/nobuild
+	qer_editorimage textures/common_src/nobuild_p
 
 	qer_trans 0.5
 
@@ -368,7 +368,7 @@ textures/common/nobuild
 // Unvanquished specific: Disallows building to the alien team.
 textures/common/noalienbuild
 {
-	qer_editorimage textures/common_src/noalienbuild
+	qer_editorimage textures/common_src/noalienbuild_p
 
 	qer_trans 0.5
 
@@ -381,7 +381,7 @@ textures/common/noalienbuild
 // Unvanquished specific: Disallows building to the human team.
 textures/common/nohumanbuild
 {
-	qer_editorimage textures/common_src/nohumanbuild
+	qer_editorimage textures/common_src/nohumanbuild_p
 
 	qer_trans 0.5
 
@@ -396,7 +396,7 @@ textures/common/nohumanbuild
 // primary texture only
 textures/common/alpha_000
 {
-	qer_editorimage textures/common_src/alpha_000
+	qer_editorimage textures/common_src/alpha_000_p
 	qer_trans 0.75
 
 	q3map_alphaMod volume
@@ -409,7 +409,7 @@ textures/common/alpha_000
 
 textures/common/alpha_025
 {
-	qer_editorimage textures/common_src/alpha_025
+	qer_editorimage textures/common_src/alpha_025_p
 	qer_trans 0.80
 
 	q3map_alphaMod volume
@@ -423,7 +423,7 @@ textures/common/alpha_025
 // equal mix of both primary and secondary textures
 textures/common/alpha_050
 {
-	qer_editorimage textures/common_src/alpha_050
+	qer_editorimage textures/common_src/alpha_050_p
 	qer_trans 0.80
 
 	q3map_alphaMod volume
@@ -436,7 +436,7 @@ textures/common/alpha_050
 
 textures/common/alpha_075
 {
-	qer_editorimage textures/common_src/alpha_075
+	qer_editorimage textures/common_src/alpha_075_p
 	qer_trans 0.80
 
 	q3map_alphaMod volume
@@ -449,7 +449,7 @@ textures/common/alpha_075
 
 textures/common/alpha_085
 {
-	qer_editorimage textures/common_src/alpha_085
+	qer_editorimage textures/common_src/alpha_085_p
 	qer_trans 0.80
 
 	q3map_alphaMod volume
@@ -463,7 +463,7 @@ textures/common/alpha_085
 // secondary texture only
 textures/common/alpha_100
 {
-	qer_editorimage textures/common_src/alpha_100
+	qer_editorimage textures/common_src/alpha_100_p
 	qer_trans 0.80
 
 	q3map_alphaMod volume

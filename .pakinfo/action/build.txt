@@ -1,0 +1,2 @@
+convert_jpg textures/radiant/notex.png
+convert_jpg textures/radiant/shadernotex.png
