@@ -255,18 +255,6 @@ textures/common/nodrop
 	surfaceparm trans
 }
 
-// editor image fallback for missing shader
-textures/common/notex
-{
-	qer_editorImage textures/common_src/notex_p
-}
-
-// editor image fallback for shader without editor image
-textures/common/shadernotex
-{
-	qer_editorImage textures/common_src/shadernotex_p
-}
-
 // Used on a small cube, the center defines the origin of the brush group.
 textures/common/origin
 {
