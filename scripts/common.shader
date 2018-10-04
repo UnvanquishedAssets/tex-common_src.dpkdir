@@ -20,7 +20,7 @@ textures/common/areaportal
 {
 	qer_editorImage textures/common_src/areaportal_p
 
-	qer_trans 0.4
+	qer_trans .4
 
 	surfaceparm areaportal
 	surfaceparm nodraw
@@ -46,7 +46,7 @@ textures/common/botclip
 {
 	qer_editorImage textures/common_src/botclip_p
 
-	qer_trans 0.4
+	qer_trans .4
 
 	surfaceparm botclip
 	surfaceparm nodraw
@@ -69,7 +69,7 @@ textures/common/cushion
 	qer_editorImage textures/common_src/cushion_p
 
 	qer_nocarve
-	qer_trans 0.5
+	qer_trans .5
 
 	surfaceparm nodamage
 	surfaceparm nodraw
@@ -82,7 +82,7 @@ textures/common/donotenter
 {
 	qer_editorImage textures/common_src/donotenter_p
 
-	qer_trans 0.5
+	qer_trans .5
 
 	surfaceparm donotenter
 	surfaceparm nodraw
@@ -99,7 +99,7 @@ textures/common/fullclip
 {
 	qer_editorImage textures/common_src/fullclip_p
 
-	qer_trans 0.4
+	qer_trans .4
 
 	surfaceparm nodraw
 	//surfaceparm playerclip // see comment above shader
@@ -113,7 +113,7 @@ textures/common/hint
 	qer_editorImage textures/common_src/hint_p
 
 	qer_nocarve
-	qer_trans 0.3
+	qer_trans .3
 
 	surfaceparm hint
 	surfaceparm nodraw
@@ -128,7 +128,7 @@ textures/common/hintskip
 	qer_editorImage textures/common_src/hintskip_p
 
 	qer_nocarve
-	qer_trans 0.3
+	qer_trans .3
 
 	surfaceparm nodraw
 	surfaceparm nonsolid
@@ -143,7 +143,7 @@ textures/common/invisible
 {
 	qer_editorImage textures/common_src/invisible_p
 
-	qer_trans 0.4
+	qer_trans .4
 
 	surfaceparm nolightmap
 	surfaceparm trans
@@ -160,7 +160,7 @@ textures/common/ladder
 {
 	qer_editorImage textures/common_src/ladder_p
 
-	qer_trans 0.5
+	qer_trans .5
 
 	surfaceparm ladder
 	surfaceparm nodraw
@@ -176,7 +176,7 @@ textures/common/lightgrid
 {
 	qer_editorImage textures/common_src/lightgrid_p
 
-	qer_trans 0.5
+	qer_trans .5
 
 	surfaceparm detail
 	surfaceparm lightgrid
@@ -190,7 +190,7 @@ textures/common/metalclip
 {
 	qer_editorImage textures/common_src/metalclip_p
 
-	qer_trans 0.4
+	qer_trans .4
 
 	surfaceparm metalsteps
 	surfaceparm nodraw
@@ -222,7 +222,7 @@ textures/common/nodraw
 {
 	qer_editorImage textures/common_src/nodraw_p
 
-	qer_trans 0.4
+	qer_trans .4
 
 	surfaceparm nodraw
 	surfaceparm trans
@@ -234,7 +234,7 @@ textures/common/nodrawnonsolid
 {
 	qer_editorImage textures/common_src/nodrawnonsolid_p
 
-	qer_trans 0.4
+	qer_trans .4
 
 	surfaceparm nodraw
 	surfaceparm nonsolid
@@ -247,7 +247,7 @@ textures/common/nodrop
 	qer_editorImage textures/common_src/nodrop_p
 
 	qer_nocarve
-	qer_trans 0.5
+	qer_trans .5
 
 	surfaceparm nodraw
 	surfaceparm nodrop
@@ -261,7 +261,7 @@ textures/common/origin
 	qer_editorImage textures/common_src/origin_p
 
 	qer_nocarve
-	qer_trans 0.5
+	qer_trans .5
 
 	surfaceparm nodraw
 	surfaceparm nonsolid
@@ -275,7 +275,7 @@ textures/common/playerclip
 {
 	qer_editorImage textures/common_src/playerclip_p
 
-	qer_trans 0.4
+	qer_trans .4
 
 	surfaceparm nodraw
 	surfaceparm nonsolid
@@ -302,7 +302,7 @@ textures/common/slick
 {
 	qer_editorImage textures/common_src/slick_p
 
-	qer_trans 0.5
+	qer_trans .5
 
 	surfaceparm nodraw
 	surfaceparm slick
@@ -335,7 +335,7 @@ textures/common/trigger
 	qer_editorImage textures/common_src/trigger_p
 
 	qer_nocarve
-	qer_trans 0.5
+	qer_trans .5
 
 	surfaceparm nodraw
 }
@@ -345,7 +345,7 @@ textures/common/nobuild
 {
 	qer_editorImage textures/common_src/nobuild_p
 
-	qer_trans 0.5
+	qer_trans .5
 
 	surfaceparm nobuild
 	surfaceparm nodraw
@@ -358,7 +358,7 @@ textures/common/noalienbuild
 {
 	qer_editorImage textures/common_src/noalienbuild_p
 
-	qer_trans 0.5
+	qer_trans .5
 
 	surfaceparm noalienbuild
 	surfaceparm nodraw
@@ -371,7 +371,7 @@ textures/common/nohumanbuild
 {
 	qer_editorImage textures/common_src/nohumanbuild_p
 
-	qer_trans 0.5
+	qer_trans .5
 
 	surfaceparm nodraw
 	surfaceparm nohumanbuild
@@ -385,7 +385,7 @@ textures/common/nohumanbuild
 textures/common/alpha_000
 {
 	qer_editorImage textures/common_src/alpha_000_p
-	qer_trans 0.75
+	qer_trans .75
 
 	q3map_alphaMod volume
 	q3map_alphaMod set 0
@@ -398,10 +398,10 @@ textures/common/alpha_000
 textures/common/alpha_025
 {
 	qer_editorImage textures/common_src/alpha_025_p
-	qer_trans 0.80
+	qer_trans .8
 
 	q3map_alphaMod volume
-	q3map_alphaMod set 0.25
+	q3map_alphaMod set .25
 
 	surfaceparm trans
 	surfaceparm nodraw
@@ -412,10 +412,10 @@ textures/common/alpha_025
 textures/common/alpha_050
 {
 	qer_editorImage textures/common_src/alpha_050_p
-	qer_trans 0.80
+	qer_trans .8
 
 	q3map_alphaMod volume
-	q3map_alphaMod set 0.50
+	q3map_alphaMod set .5
 
 	surfaceparm trans
 	surfaceparm nodraw
@@ -425,10 +425,10 @@ textures/common/alpha_050
 textures/common/alpha_075
 {
 	qer_editorImage textures/common_src/alpha_075_p
-	qer_trans 0.80
+	qer_trans .8
 
 	q3map_alphaMod volume
-	q3map_alphaMod set 0.75
+	q3map_alphaMod set .75
 
 	surfaceparm trans
 	surfaceparm nodraw
@@ -438,10 +438,10 @@ textures/common/alpha_075
 textures/common/alpha_085
 {
 	qer_editorImage textures/common_src/alpha_085_p
-	qer_trans 0.80
+	qer_trans .8
 
 	q3map_alphaMod volume
-	q3map_alphaMod set 0.85
+	q3map_alphaMod set .85
 
 	surfaceparm trans
 	surfaceparm nodraw
@@ -452,10 +452,10 @@ textures/common/alpha_085
 textures/common/alpha_100
 {
 	qer_editorImage textures/common_src/alpha_100_p
-	qer_trans 0.80
+	qer_trans .8
 
 	q3map_alphaMod volume
-	q3map_alphaMod set 1.0
+	q3map_alphaMod set 1
 
 	surfaceparm trans
 	surfaceparm nodraw
