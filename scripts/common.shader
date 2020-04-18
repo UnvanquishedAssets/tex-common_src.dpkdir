@@ -37,7 +37,9 @@ textures/common/black
 	surfaceparm nolightmap
 	surfaceparm nomarks
 
-	diffuseMap textures/common_src/black_d
+	{
+		diffuseMap textures/common_src/black_d
+	}
 }
 
 // Clips bots but lets everything else pass.
