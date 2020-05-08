@@ -311,6 +311,20 @@ textures/common/slick
 	surfaceparm trans
 }
 
+// A hint brush that does not split the whole BSP default cell.
+textures/common/subtlehint
+{
+	qer_editorImage textures/common_src/subtlehint_p
+
+	qer_nocarve
+	qer_trans .5
+
+	surfaceparm nodraw
+	surfaceparm nonsolid
+	surfaceparm structural
+	surfaceparm trans
+}
+
 textures/common/terrain
 {
 	qer_editorImage textures/common_src/terrain_p
