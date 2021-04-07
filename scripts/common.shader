@@ -261,6 +261,7 @@ textures/common/nodrawnonsolid
 
 	surfaceparm nodraw
 	surfaceparm nolightmap
+	surfaceparm nomarks
 	surfaceparm nonsolid
 	surfaceparm trans
 }
