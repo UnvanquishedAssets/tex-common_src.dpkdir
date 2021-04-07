@@ -106,7 +106,7 @@ textures/common/donotenter
 // Basically an invisible wall that won't receive bullet marks.
 // "surfaceparm playerclip" is commented out because while it makes the editor
 // aware that this is a clip, the engine would let bullets and missiles pass.
-// Also known as "full_clip" and "weapclip".
+// Also known as "full_clip", "missileclip", and "weapclip".
 textures/common/fullclip
 {
 	qer_editorImage textures/common_src/fullclip_p
@@ -114,7 +114,7 @@ textures/common/fullclip
 	qer_trans .4
 
 	surfaceparm nodraw
-	//surfaceparm playerclip // see comment above shader
+//	surfaceparm playerclip // this is not correct
 	surfaceparm trans
 }
 
@@ -136,6 +136,7 @@ textures/common/hint
 }
 
 // Used on all other surfaces of a "hint" brush.
+// Also known as “skip”.
 textures/common/hintskip
 {
 	qer_editorImage textures/common_src/hintskip_p
@@ -150,7 +151,7 @@ textures/common/hintskip
 	surfaceparm trans
 }
 
-// A solid, transparent surface that receives marks.
+// A solid, transparent surface that receives marks. Does not cast shadow anymore.
 // Behaves like a perfectly translucent window, can be used as a placeholder.
 textures/common/invisible
 {
@@ -167,7 +168,7 @@ textures/common/invisible
 	}
 }
 
-// An invsible surface that players can climb on.
+// An invisible surface that players can climb on.
 // Use this around your actual ladder geometry.
 textures/common/ladder
 {
@@ -203,7 +204,7 @@ textures/common/lightgrid
 	surfaceparm trans
 }
 
-// Like "clip", but creates metal step sounds when walking on top.
+// Like "playerclip", but creates metal step sounds when walking on top.
 textures/common/metalclip
 {
 	qer_editorImage textures/common_src/metalclip_p
@@ -238,7 +239,8 @@ textures/common/mirror
 
 // A solid surface that will not be rendered.
 // Can be used on the sides of girders and fences.
-// If you want to be able to shoot through the fence, use "clip" instead.
+// If you want to be able to shoot through the fence, use "playerclip" instead.
+// This one is solid, it was non-solid in Tremulous, also see nodrawnonsolid.
 textures/common/nodraw
 {
 	qer_editorImage textures/common_src/nodraw_p
