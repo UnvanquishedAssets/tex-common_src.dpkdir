@@ -24,6 +24,8 @@ textures/common/areaportal
 
 	surfaceparm areaportal
 	surfaceparm nodraw
+	surfaceparm nolightmap
+	surfaceparm nomarks
 	surfaceparm nonsolid
 	surfaceparm structural
 	surfaceparm trans
@@ -52,6 +54,9 @@ textures/common/botclip
 
 	surfaceparm botclip
 	surfaceparm nodraw
+	surfaceparm noimpact
+	surfaceparm nolightmap
+	surfaceparm nomarks
 	surfaceparm nonsolid
 	surfaceparm trans
 }
@@ -63,6 +68,8 @@ textures/common/caulk
 	qer_editorImage textures/common_src/caulk_p
 
 	surfaceparm nodraw
+	surfaceparm nolightmap
+	surfaceparm nomarks
 }
 
 // Landing on this invisible surface will prevent fall damage.
@@ -75,6 +82,8 @@ textures/common/cushion
 
 	surfaceparm nodamage
 	surfaceparm nodraw
+	surfaceparm nolightmap
+	surfaceparm nomarks
 	surfaceparm trans
 }
 
@@ -88,6 +97,7 @@ textures/common/donotenter
 
 	surfaceparm donotenter
 	surfaceparm nodraw
+	surfaceparm nomarks
 	surfaceparm nonsolid
 	surfaceparm trans
 }
@@ -119,6 +129,7 @@ textures/common/hint
 
 	surfaceparm hint
 	surfaceparm nodraw
+	surfaceparm noimpact
 	surfaceparm nonsolid
 	surfaceparm structural
 	surfaceparm trans
@@ -166,6 +177,9 @@ textures/common/ladder
 
 	surfaceparm ladder
 	surfaceparm nodraw
+	surfaceparm noimpact
+	surfaceparm nolightmap
+	surfaceparm nomarks
 	surfaceparm nonsolid
 	surfaceparm playerclip
 	surfaceparm trans
@@ -183,6 +197,8 @@ textures/common/lightgrid
 	surfaceparm detail
 	surfaceparm lightgrid
 	surfaceparm nodraw
+	surfaceparm nolightmap
+	surfaceparm nomarks
 	surfaceparm nonsolid
 	surfaceparm trans
 }
@@ -196,6 +212,9 @@ textures/common/metalclip
 
 	surfaceparm metalsteps
 	surfaceparm nodraw
+	surfaceparm noimpact
+	surfaceparm nolightmap
+	surfaceparm nomarks
 	surfaceparm nonsolid
 	surfaceparm playerclip
 	surfaceparm trans
@@ -227,6 +246,8 @@ textures/common/nodraw
 	qer_trans .4
 
 	surfaceparm nodraw
+	surfaceparm nolightmap
+	surfaceparm nomarks
 	surfaceparm trans
 }
 
@@ -239,6 +260,7 @@ textures/common/nodrawnonsolid
 	qer_trans .4
 
 	surfaceparm nodraw
+	surfaceparm nolightmap
 	surfaceparm nonsolid
 	surfaceparm trans
 }
@@ -253,6 +275,8 @@ textures/common/nodrop
 
 	surfaceparm nodraw
 	surfaceparm nodrop
+	surfaceparm nolightmap
+	surfaceparm nomarks
 	surfaceparm nonsolid
 	surfaceparm trans
 }
@@ -266,6 +290,7 @@ textures/common/origin
 	qer_trans .5
 
 	surfaceparm nodraw
+	surfaceparm nolightmap
 	surfaceparm nonsolid
 	surfaceparm origin
 	surfaceparm trans
@@ -299,6 +324,9 @@ textures/common/playerclip
 	qer_trans .4
 
 	surfaceparm nodraw
+	surfaceparm noimpact
+	surfaceparm nolightmap
+	surfaceparm nomarks
 	surfaceparm nonsolid
 	surfaceparm playerclip
 	surfaceparm trans
@@ -326,6 +354,8 @@ textures/common/slick
 	qer_trans .5
 
 	surfaceparm nodraw
+	surfaceparm nolightmap
+	surfaceparm nomarks
 	surfaceparm slick
 	surfaceparm trans
 }
@@ -339,6 +369,8 @@ textures/common/slickplayerclip
 	qer_trans .5
 
 	surfaceparm nodraw
+	surfaceparm nolightmap
+	surfaceparm nomarks
 	surfaceparm playerclip
 	surfaceparm slick
 	surfaceparm trans
@@ -365,6 +397,8 @@ textures/common/terrain
 	q3map_terrain
 
 	surfaceparm nodraw
+	surfaceparm nolightmap
+	surfaceparm nomarks
 }
 
 // Also known as "terrain2".
@@ -399,6 +433,8 @@ textures/common/nobuild
 	surfaceparm nobuild
 	surfaceparm nobuildsurface
 	surfaceparm nodraw
+	surfaceparm nolightmap
+	surfaceparm nomarks
 	surfaceparm nonsolid
 	surfaceparm trans
 }
@@ -413,6 +449,8 @@ textures/common/noalienbuild
 	surfaceparm noalienbuild
 	surfaceparm noalienbuildsurface
 	surfaceparm nodraw
+	surfaceparm nolightmap
+	surfaceparm nomarks
 	surfaceparm nonsolid
 	surfaceparm trans
 }
@@ -427,6 +465,8 @@ textures/common/nohumanbuild
 	surfaceparm nodraw
 	surfaceparm nohumanbuild
 	surfaceparm nohumanbuildsurface
+	surfaceparm nolightmap
+	surfaceparm nomarks
 	surfaceparm nonsolid
 	surfaceparm trans
 }
