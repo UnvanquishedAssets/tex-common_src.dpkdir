@@ -282,6 +282,7 @@ textures/common/outside
 	qer_trans .4
 
 	surfaceparm nobuild
+	surfaceparm nobuildsurface
 	surfaceparm nodraw
 	surfaceparm nonsolid
 	surfaceparm playerclip
@@ -396,6 +397,7 @@ textures/common/nobuild
 	qer_trans .5
 
 	surfaceparm nobuild
+	surfaceparm nobuildsurface
 	surfaceparm nodraw
 	surfaceparm nonsolid
 	surfaceparm trans
@@ -409,6 +411,7 @@ textures/common/noalienbuild
 	qer_trans .5
 
 	surfaceparm noalienbuild
+	surfaceparm noalienbuildsurface
 	surfaceparm nodraw
 	surfaceparm nonsolid
 	surfaceparm trans
@@ -423,6 +426,7 @@ textures/common/nohumanbuild
 
 	surfaceparm nodraw
 	surfaceparm nohumanbuild
+	surfaceparm nohumanbuildsurface
 	surfaceparm nonsolid
 	surfaceparm trans
 }
