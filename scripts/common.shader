@@ -259,6 +259,20 @@ textures/common/origin
 	surfaceparm trans
 }
 
+textures/common/outside
+{
+	qer_editorImage textures/common_src/outside_p
+
+	qer_trans .4
+
+	surfaceparm nobuild
+	surfaceparm nodraw
+	surfaceparm nonsolid
+	surfaceparm playerclip
+	surfaceparm slick
+	surfaceparm trans
+}
+
 // Clips players (including bots) but lets everything else pass.
 // Also known as "clip".
 textures/common/playerclip
