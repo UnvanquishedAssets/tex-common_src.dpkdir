@@ -271,6 +271,24 @@ textures/common/origin
 	surfaceparm trans
 }
 
+// Used to delimit the playable area.
+// Clips player but let everything else pass,
+// disable building and use slick to prevent
+// wallwalking.
+textures/common/outside
+{
+	qer_editorImage textures/common_src/outside_p
+
+	qer_trans .4
+
+	surfaceparm nobuild
+	surfaceparm nodraw
+	surfaceparm nonsolid
+	surfaceparm playerclip
+	surfaceparm slick
+	surfaceparm trans
+}
+
 // Clips players (including bots) but lets everything else pass.
 // Also known as "clip".
 textures/common/playerclip
