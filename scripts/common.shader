@@ -24,6 +24,8 @@ textures/common/areaportal
 
 	surfaceparm areaportal
 	surfaceparm nodraw
+	surfaceparm nolightmap
+	surfaceparm nomarks
 	surfaceparm nonsolid
 	surfaceparm structural
 	surfaceparm trans
@@ -52,6 +54,9 @@ textures/common/botclip
 
 	surfaceparm botclip
 	surfaceparm nodraw
+	surfaceparm noimpact
+	surfaceparm nolightmap
+	surfaceparm nomarks
 	surfaceparm nonsolid
 	surfaceparm trans
 }
@@ -63,6 +68,8 @@ textures/common/caulk
 	qer_editorImage textures/common_src/caulk_p
 
 	surfaceparm nodraw
+	surfaceparm nolightmap
+	surfaceparm nomarks
 }
 
 // Landing on this invisible surface will prevent fall damage.
@@ -75,6 +82,8 @@ textures/common/cushion
 
 	surfaceparm nodamage
 	surfaceparm nodraw
+	surfaceparm nolightmap
+	surfaceparm nomarks
 	surfaceparm trans
 }
 
@@ -88,6 +97,7 @@ textures/common/donotenter
 
 	surfaceparm donotenter
 	surfaceparm nodraw
+	surfaceparm nomarks
 	surfaceparm nonsolid
 	surfaceparm trans
 }
@@ -96,7 +106,7 @@ textures/common/donotenter
 // Basically an invisible wall that won't receive bullet marks.
 // "surfaceparm playerclip" is commented out because while it makes the editor
 // aware that this is a clip, the engine would let bullets and missiles pass.
-// Also known as "full_clip" and "weapclip".
+// Also known as "full_clip", "missileclip", and "weapclip".
 textures/common/fullclip
 {
 	qer_editorImage textures/common_src/fullclip_p
@@ -104,7 +114,7 @@ textures/common/fullclip
 	qer_trans .4
 
 	surfaceparm nodraw
-	//surfaceparm playerclip // see comment above shader
+//	surfaceparm playerclip // this is not correct
 	surfaceparm trans
 }
 
@@ -119,12 +129,14 @@ textures/common/hint
 
 	surfaceparm hint
 	surfaceparm nodraw
+	surfaceparm noimpact
 	surfaceparm nonsolid
 	surfaceparm structural
 	surfaceparm trans
 }
 
 // Used on all other surfaces of a "hint" brush.
+// Also known as “skip”.
 textures/common/hintskip
 {
 	qer_editorImage textures/common_src/hintskip_p
@@ -139,7 +151,7 @@ textures/common/hintskip
 	surfaceparm trans
 }
 
-// A solid, transparent surface that receives marks.
+// A solid, transparent surface that receives marks. Does not cast shadow anymore.
 // Behaves like a perfectly translucent window, can be used as a placeholder.
 textures/common/invisible
 {
@@ -156,7 +168,7 @@ textures/common/invisible
 	}
 }
 
-// An invsible surface that players can climb on.
+// An invisible surface that players can climb on.
 // Use this around your actual ladder geometry.
 textures/common/ladder
 {
@@ -166,6 +178,9 @@ textures/common/ladder
 
 	surfaceparm ladder
 	surfaceparm nodraw
+	surfaceparm noimpact
+	surfaceparm nolightmap
+	surfaceparm nomarks
 	surfaceparm nonsolid
 	surfaceparm playerclip
 	surfaceparm trans
@@ -183,11 +198,13 @@ textures/common/lightgrid
 	surfaceparm detail
 	surfaceparm lightgrid
 	surfaceparm nodraw
+	surfaceparm nolightmap
+	surfaceparm nomarks
 	surfaceparm nonsolid
 	surfaceparm trans
 }
 
-// Like "clip", but creates metal step sounds when walking on top.
+// Like "playerclip", but creates metal step sounds when walking on top.
 textures/common/metalclip
 {
 	qer_editorImage textures/common_src/metalclip_p
@@ -196,6 +213,9 @@ textures/common/metalclip
 
 	surfaceparm metalsteps
 	surfaceparm nodraw
+	surfaceparm noimpact
+	surfaceparm nolightmap
+	surfaceparm nomarks
 	surfaceparm nonsolid
 	surfaceparm playerclip
 	surfaceparm trans
@@ -219,7 +239,8 @@ textures/common/mirror
 
 // A solid surface that will not be rendered.
 // Can be used on the sides of girders and fences.
-// If you want to be able to shoot through the fence, use "clip" instead.
+// If you want to be able to shoot through the fence, use "playerclip" instead.
+// This one is solid, it was non-solid in Tremulous, also see nodrawnonsolid.
 textures/common/nodraw
 {
 	qer_editorImage textures/common_src/nodraw_p
@@ -227,6 +248,8 @@ textures/common/nodraw
 	qer_trans .4
 
 	surfaceparm nodraw
+	surfaceparm nolightmap
+	surfaceparm nomarks
 	surfaceparm trans
 }
 
@@ -239,6 +262,8 @@ textures/common/nodrawnonsolid
 	qer_trans .4
 
 	surfaceparm nodraw
+	surfaceparm nolightmap
+	surfaceparm nomarks
 	surfaceparm nonsolid
 	surfaceparm trans
 }
@@ -253,6 +278,8 @@ textures/common/nodrop
 
 	surfaceparm nodraw
 	surfaceparm nodrop
+	surfaceparm nolightmap
+	surfaceparm nomarks
 	surfaceparm nonsolid
 	surfaceparm trans
 }
@@ -266,8 +293,28 @@ textures/common/origin
 	qer_trans .5
 
 	surfaceparm nodraw
+	surfaceparm nolightmap
 	surfaceparm nonsolid
 	surfaceparm origin
+	surfaceparm trans
+}
+
+// Used to delimit the playable area.
+// Clips player but let everything else pass,
+// disable building and use slick to prevent
+// wallwalking.
+textures/common/outside
+{
+	qer_editorImage textures/common_src/outside_p
+
+	qer_trans .4
+
+	surfaceparm nobuild
+	surfaceparm nobuildsurface
+	surfaceparm nodraw
+	surfaceparm nonsolid
+	surfaceparm playerclip
+	surfaceparm slick
 	surfaceparm trans
 }
 
@@ -280,6 +327,9 @@ textures/common/playerclip
 	qer_trans .4
 
 	surfaceparm nodraw
+	surfaceparm noimpact
+	surfaceparm nolightmap
+	surfaceparm nomarks
 	surfaceparm nonsolid
 	surfaceparm playerclip
 	surfaceparm trans
@@ -307,6 +357,8 @@ textures/common/slick
 	qer_trans .5
 
 	surfaceparm nodraw
+	surfaceparm nolightmap
+	surfaceparm nomarks
 	surfaceparm slick
 	surfaceparm trans
 }
@@ -320,6 +372,8 @@ textures/common/slickplayerclip
 	qer_trans .5
 
 	surfaceparm nodraw
+	surfaceparm nolightmap
+	surfaceparm nomarks
 	surfaceparm playerclip
 	surfaceparm slick
 	surfaceparm trans
@@ -346,6 +400,8 @@ textures/common/terrain
 	q3map_terrain
 
 	surfaceparm nodraw
+	surfaceparm nolightmap
+	surfaceparm nomarks
 }
 
 // Also known as "terrain2".
@@ -378,7 +434,10 @@ textures/common/nobuild
 	qer_trans .5
 
 	surfaceparm nobuild
+	surfaceparm nobuildsurface
 	surfaceparm nodraw
+	surfaceparm nolightmap
+	surfaceparm nomarks
 	surfaceparm nonsolid
 	surfaceparm trans
 }
@@ -391,7 +450,10 @@ textures/common/noalienbuild
 	qer_trans .5
 
 	surfaceparm noalienbuild
+	surfaceparm noalienbuildsurface
 	surfaceparm nodraw
+	surfaceparm nolightmap
+	surfaceparm nomarks
 	surfaceparm nonsolid
 	surfaceparm trans
 }
@@ -405,6 +467,9 @@ textures/common/nohumanbuild
 
 	surfaceparm nodraw
 	surfaceparm nohumanbuild
+	surfaceparm nohumanbuildsurface
+	surfaceparm nolightmap
+	surfaceparm nomarks
 	surfaceparm nonsolid
 	surfaceparm trans
 }
