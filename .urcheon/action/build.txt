@@ -1,2 +1,17 @@
 convert_jpg textures/radiant/notex.png
 convert_jpg textures/radiant/shadernotex.png
+copy textures/shared_colors_src/azure_d.tga
+copy textures/shared_colors_src/black_d.tga
+copy textures/shared_colors_src/blue_d.tga
+copy textures/shared_colors_src/chartreuse_d.tga
+copy textures/shared_colors_src/cyan_d.tga
+copy textures/shared_colors_src/gray_d.tga
+copy textures/shared_colors_src/green_d.tga
+copy textures/shared_colors_src/magenta_d.tga
+copy textures/shared_colors_src/orange_d.tga
+copy textures/shared_colors_src/red_d.tga
+copy textures/shared_colors_src/rose_d.tga
+copy textures/shared_colors_src/spring_d.tga
+copy textures/shared_colors_src/violet_d.tga
+copy textures/shared_colors_src/white_d.tga
+copy textures/shared_colors_src/yellow_d.tga
