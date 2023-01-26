@@ -19,7 +19,6 @@
 textures/common/areaportal
 {
 	qer_editorImage textures/common_src/areaportal_p
-
 	qer_trans .4
 
 	surfaceparm areaportal
@@ -50,7 +49,6 @@ textures/common/black
 textures/common/botclip
 {
 	qer_editorImage textures/common_src/botclip_p
-
 	qer_trans .4
 
 	surfaceparm botclip
@@ -72,7 +70,6 @@ textures/common/caulk
 textures/common/cushion
 {
 	qer_editorImage textures/common_src/cushion_p
-
 	qer_nocarve
 	qer_trans .5
 
@@ -86,7 +83,6 @@ textures/common/cushion
 textures/common/donotenter
 {
 	qer_editorImage textures/common_src/donotenter_p
-
 	qer_trans .5
 
 	surfaceparm donotenter
@@ -103,7 +99,6 @@ textures/common/donotenter
 textures/common/fullclip
 {
 	qer_editorImage textures/common_src/fullclip_p
-
 	qer_trans .4
 
 	surfaceparm nodraw
@@ -116,7 +111,6 @@ textures/common/fullclip
 textures/common/hint
 {
 	qer_editorImage textures/common_src/hint_p
-
 	qer_nocarve
 	qer_trans .3
 
@@ -131,7 +125,6 @@ textures/common/hint
 textures/common/hintskip
 {
 	qer_editorImage textures/common_src/hintskip_p
-
 	qer_nocarve
 	qer_trans .3
 
@@ -147,7 +140,6 @@ textures/common/hintskip
 textures/common/invisible
 {
 	qer_editorImage textures/common_src/invisible_p
-
 	qer_trans .4
 
 	surfaceparm nolightmap
@@ -164,7 +156,6 @@ textures/common/invisible
 textures/common/ladder
 {
 	qer_editorImage textures/common_src/ladder_p
-
 	qer_trans .5
 
 	surfaceparm ladder
@@ -180,7 +171,6 @@ textures/common/ladder
 textures/common/lightgrid
 {
 	qer_editorImage textures/common_src/lightgrid_p
-
 	qer_trans .5
 
 	surfaceparm detail
@@ -194,7 +184,6 @@ textures/common/lightgrid
 textures/common/metalclip
 {
 	qer_editorImage textures/common_src/metalclip_p
-
 	qer_trans .4
 
 	surfaceparm metalsteps
@@ -226,7 +215,6 @@ textures/common/mirror
 textures/common/nodraw
 {
 	qer_editorImage textures/common_src/nodraw_p
-
 	qer_trans .4
 
 	surfaceparm nodraw
@@ -238,7 +226,6 @@ textures/common/nodraw
 textures/common/nodrawnonsolid
 {
 	qer_editorImage textures/common_src/nodrawnonsolid_p
-
 	qer_trans .4
 
 	surfaceparm nodraw
@@ -250,7 +237,6 @@ textures/common/nodrawnonsolid
 textures/common/nodrop
 {
 	qer_editorImage textures/common_src/nodrop_p
-
 	qer_nocarve
 	qer_trans .5
 
@@ -264,7 +250,6 @@ textures/common/nodrop
 textures/common/origin
 {
 	qer_editorImage textures/common_src/origin_p
-
 	qer_nocarve
 	qer_trans .5
 
@@ -279,7 +264,6 @@ textures/common/origin
 textures/common/playerclip
 {
 	qer_editorImage textures/common_src/playerclip_p
-
 	qer_trans .4
 
 	surfaceparm nodraw
@@ -306,7 +290,6 @@ textures/common/portal
 textures/common/slick
 {
 	qer_editorImage textures/common_src/slick_p
-
 	qer_trans .5
 
 	surfaceparm nodraw
@@ -319,7 +302,6 @@ textures/common/slick
 textures/common/slickplayerclip
 {
 	qer_editorImage textures/common_src/slickplayerclip_p
-
 	qer_trans .5
 
 	surfaceparm nodraw
@@ -332,7 +314,6 @@ textures/common/slickplayerclip
 textures/common/subtlehint
 {
 	qer_editorImage textures/common_src/subtlehint_p
-
 	qer_nocarve
 	qer_trans .5
 
@@ -366,7 +347,6 @@ textures/common/terrain_dust
 textures/common/trigger
 {
 	qer_editorImage textures/common_src/trigger_p
-
 	qer_nocarve
 	qer_trans .5
 
@@ -377,7 +357,6 @@ textures/common/trigger
 textures/common/nobuild
 {
 	qer_editorImage textures/common_src/nobuild_p
-
 	qer_trans .5
 
 	surfaceparm nobuild
@@ -390,7 +369,6 @@ textures/common/nobuild
 textures/common/noalienbuild
 {
 	qer_editorImage textures/common_src/noalienbuild_p
-
 	qer_trans .5
 
 	surfaceparm noalienbuild
@@ -403,7 +381,6 @@ textures/common/noalienbuild
 textures/common/nohumanbuild
 {
 	qer_editorImage textures/common_src/nohumanbuild_p
-
 	qer_trans .5
 
 	surfaceparm nodraw
