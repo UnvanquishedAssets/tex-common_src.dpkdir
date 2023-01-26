@@ -1,5 +1,7 @@
 convert_jpg textures/radiant/notex.png
 convert_jpg textures/radiant/shadernotex.png
+copy textures/common_src/black_d.tga
+copy textures/common_src/transparent_d.tga
 copy textures/shared_colors_src/azure_d.tga
 copy textures/shared_colors_src/black_d.tga
 copy textures/shared_colors_src/blue_d.tga

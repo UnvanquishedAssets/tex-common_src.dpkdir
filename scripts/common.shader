@@ -30,15 +30,18 @@ textures/common/areaportal
 }
 
 // A solid wall that always appears pitch black.
+// Deprecated, better use textures/shared_colors/black instead.
 textures/common/black
 {
 	qer_editorImage textures/common_src/black_p
+
+	q3map_deprecateShader textures/shared_colors/black
 
 	surfaceparm nolightmap
 	surfaceparm nomarks
 
 	{
-		diffuseMap textures/common_src/black_d
+		diffuseMap textures/shared_colors_src/black_d
 	}
 }
 
@@ -151,7 +154,7 @@ textures/common/invisible
 	surfaceparm trans
 
 	{
-		map textures/common_src/transparent_d
+		map textures/shared_colors_src/transparent_d
 		alphaFunc GE128
 	}
 }
@@ -211,7 +214,7 @@ textures/common/mirror
 	portal
 
 	{
-		map textures/common_src/transparent_d
+		map textures/shared_colors_src/transparent_d
 		blendfunc GL_ONE GL_ONE_MINUS_SRC_ALPHA
 		depthWrite
 	}
@@ -294,7 +297,7 @@ textures/common/portal
 	portal
 
 	{
-		map textures/common_src/transparent_d
+		map textures/shared_colors_src/transparent_d
 		blendfunc GL_ONE GL_ONE_MINUS_SRC_ALPHA
 		depthWrite
 	}
