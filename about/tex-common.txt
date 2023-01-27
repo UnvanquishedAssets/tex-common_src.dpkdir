@@ -1,21 +1,20 @@
 textures/radiant/*
 
-    Authors
+	Authors
 
-        Stijn “Ingar” Buys <ingar@osirion.org> (http://osirion.org/)
+		Stijn “Ingar” Buys <ingar@osirion.org> (http://osirion.org/)
 		Base set
 
-        Maximilian “Viech” Stahlberg
+		Maximilian “Viech” Stahlberg
 		Additional textures, color modifications
 
 		Thomas “illwieckz“ Debesse
 		Alpha shaders
 
-    License
+	License
 
-         CC0 1.0 Universal (https://creativecommons.org/publicdomain/zero/1.0/)
+		CC0 1.0 Universal (https://creativecommons.org/publicdomain/zero/1.0/)
 
-    Source
+	Source
 
-        File transfer
-
+		File transfer

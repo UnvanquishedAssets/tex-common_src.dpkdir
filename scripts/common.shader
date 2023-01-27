@@ -1,10 +1,10 @@
 // To the extent possible under law, Unvanquished Development has waived all
 // copyright and related or neighboring rights to this shader file.
-// 
+//
 // For modifications, it is recommended that you copy this file into your map's
 // file space and, inside the shader name, replace "common" with your map's
 // short name. If you do so, please remove this header.
-// 
+//
 // This file is a part of the Unvanquished installation and can change with
 // every release.
 
