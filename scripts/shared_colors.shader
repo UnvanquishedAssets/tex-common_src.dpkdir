@@ -372,3 +372,37 @@ textures/shared_colors/rose_nonsolid
 		diffuseMap textures/shared_colors_src/rose_d
 	}
 }
+
+// The fully transparent texture with transparent editor image
+// should not be listed and selectable in editor. It can be used
+// on model surfaces to hide them.
+gfx/shared_colors/transparent
+{
+	qer_editorImage textures/shared_colors_src/transparent_d
+	qer_trans 0
+
+	surfaceparm nolightmap
+	surfaceparm nomarks
+	surfaceparm trans
+
+	{
+		diffuseMap textures/shared_colors_src/transparent_d
+		blendFunc blend
+	}
+}
+
+gfx/shared_colors/transparent_nonsolid
+{
+	qer_editorImage textures/shared_colors_src/transparent_d
+	qer_trans 0
+
+	surfaceparm nolightmap
+	surfaceparm nomarks
+	surfaceparm nonsolid
+	surfaceparm trans
+
+	{
+		diffuseMap textures/shared_colors_src/transparent_d
+		blendFunc blend
+	}
+}
