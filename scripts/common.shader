@@ -280,6 +280,7 @@ textures/common/playerclip
 	qer_editorImage textures/common_src/playerclip_p
 	qer_trans .4
 
+	surfaceparm nobuild
 	surfaceparm nodraw
 	surfaceparm nonsolid
 	surfaceparm playerclip
