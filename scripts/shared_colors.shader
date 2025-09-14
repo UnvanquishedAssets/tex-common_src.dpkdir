@@ -6,7 +6,7 @@ textures/shared_colors/black
 	surfaceparm nomarks
 
 	{
-		diffuseMap textures/shared_colors_src/black_d
+		map textures/shared_colors_src/black_d
 	}
 }
 
@@ -19,7 +19,7 @@ textures/shared_colors/black_nonsolid
 	surfaceparm nonsolid
 
 	{
-		diffuseMap textures/shared_colors_src/black_d
+		map textures/shared_colors_src/black_d
 	}
 }
 
@@ -31,7 +31,7 @@ textures/shared_colors/gray
 	surfaceparm nomarks
 
 	{
-		diffuseMap textures/shared_colors_src/gray_d
+		map textures/shared_colors_src/gray_d
 	}
 }
 
@@ -44,7 +44,7 @@ textures/shared_colors/gray_nonsolid
 	surfaceparm nonsolid
 
 	{
-		diffuseMap textures/shared_colors_src/gray_d
+		map textures/shared_colors_src/gray_d
 	}
 }
 
@@ -56,7 +56,7 @@ textures/shared_colors/white
 	surfaceparm nomarks
 
 	{
-		diffuseMap textures/shared_colors_src/white_d
+		map textures/shared_colors_src/white_d
 	}
 }
 
@@ -69,7 +69,7 @@ textures/shared_colors/white_nonsolid
 	surfaceparm nonsolid
 
 	{
-		diffuseMap textures/shared_colors_src/white_d
+		map textures/shared_colors_src/white_d
 	}
 }
 
@@ -81,7 +81,7 @@ textures/shared_colors/red
 	surfaceparm nomarks
 
 	{
-		diffuseMap textures/shared_colors_src/red_d
+		map textures/shared_colors_src/red_d
 	}
 }
 
@@ -94,7 +94,7 @@ textures/shared_colors/red_nonsolid
 	surfaceparm nonsolid
 
 	{
-		diffuseMap textures/shared_colors_src/red_d
+		map textures/shared_colors_src/red_d
 	}
 }
 
@@ -106,7 +106,7 @@ textures/shared_colors/orange
 	surfaceparm nomarks
 
 	{
-		diffuseMap textures/shared_colors_src/orange_d
+		map textures/shared_colors_src/orange_d
 	}
 }
 
@@ -119,7 +119,7 @@ textures/shared_colors/orange_nonsolid
 	surfaceparm nonsolid
 
 	{
-		diffuseMap textures/shared_colors_src/orange_d
+		map textures/shared_colors_src/orange_d
 	}
 }
 
@@ -131,7 +131,7 @@ textures/shared_colors/yellow
 	surfaceparm nomarks
 
 	{
-		diffuseMap textures/shared_colors_src/yellow_d
+		map textures/shared_colors_src/yellow_d
 	}
 }
 
@@ -144,7 +144,7 @@ textures/shared_colors/yellow_nonsolid
 	surfaceparm nonsolid
 
 	{
-		diffuseMap textures/shared_colors_src/yellow_d
+		map textures/shared_colors_src/yellow_d
 	}
 }
 
@@ -156,7 +156,7 @@ textures/shared_colors/chartreuse
 	surfaceparm nomarks
 
 	{
-		diffuseMap textures/shared_colors_src/chartreuse_d
+		map textures/shared_colors_src/chartreuse_d
 	}
 }
 
@@ -169,7 +169,7 @@ textures/shared_colors/chartreuse_nonsolid
 	surfaceparm nonsolid
 
 	{
-		diffuseMap textures/shared_colors_src/chartreuse_d
+		map textures/shared_colors_src/chartreuse_d
 	}
 }
 
@@ -181,7 +181,7 @@ textures/shared_colors/green
 	surfaceparm nomarks
 
 	{
-		diffuseMap textures/shared_colors_src/green_d
+		map textures/shared_colors_src/green_d
 	}
 }
 
@@ -194,7 +194,7 @@ textures/shared_colors/green_nonsolid
 	surfaceparm nonsolid
 
 	{
-		diffuseMap textures/shared_colors_src/green_d
+		map textures/shared_colors_src/green_d
 	}
 }
 
@@ -206,7 +206,7 @@ textures/shared_colors/spring
 	surfaceparm nomarks
 
 	{
-		diffuseMap textures/shared_colors_src/spring_d
+		map textures/shared_colors_src/spring_d
 	}
 }
 
@@ -219,7 +219,7 @@ textures/shared_colors/spring_nonsolid
 	surfaceparm nonsolid
 
 	{
-		diffuseMap textures/shared_colors_src/spring_d
+		map textures/shared_colors_src/spring_d
 	}
 }
 
@@ -231,7 +231,7 @@ textures/shared_colors/cyan
 	surfaceparm nomarks
 
 	{
-		diffuseMap textures/shared_colors_src/cyan_d
+		map textures/shared_colors_src/cyan_d
 	}
 }
 
@@ -244,7 +244,7 @@ textures/shared_colors/cyan_nonsolid
 	surfaceparm nonsolid
 
 	{
-		diffuseMap textures/shared_colors_src/cyan_d
+		map textures/shared_colors_src/cyan_d
 	}
 }
 
@@ -256,7 +256,7 @@ textures/shared_colors/azure
 	surfaceparm nomarks
 
 	{
-		diffuseMap textures/shared_colors_src/azure_d
+		map textures/shared_colors_src/azure_d
 	}
 }
 
@@ -269,7 +269,7 @@ textures/shared_colors/azure_nonsolid
 	surfaceparm nonsolid
 
 	{
-		diffuseMap textures/shared_colors_src/azure_d
+		map textures/shared_colors_src/azure_d
 	}
 }
 
@@ -281,7 +281,7 @@ textures/shared_colors/blue
 	surfaceparm nomarks
 
 	{
-		diffuseMap textures/shared_colors_src/blue_d
+		map textures/shared_colors_src/blue_d
 	}
 }
 
@@ -294,7 +294,7 @@ textures/shared_colors/blue_nonsolid
 	surfaceparm nonsolid
 
 	{
-		diffuseMap textures/shared_colors_src/blue_d
+		map textures/shared_colors_src/blue_d
 	}
 }
 
@@ -306,7 +306,7 @@ textures/shared_colors/violet
 	surfaceparm nomarks
 
 	{
-		diffuseMap textures/shared_colors_src/violet_d
+		map textures/shared_colors_src/violet_d
 	}
 }
 
@@ -319,7 +319,7 @@ textures/shared_colors/violet_nonsolid
 	surfaceparm nonsolid
 
 	{
-		diffuseMap textures/shared_colors_src/violet_d
+		map textures/shared_colors_src/violet_d
 	}
 }
 
@@ -331,7 +331,7 @@ textures/shared_colors/magenta
 	surfaceparm nomarks
 
 	{
-		diffuseMap textures/shared_colors_src/magenta_d
+		map textures/shared_colors_src/magenta_d
 	}
 }
 
@@ -344,7 +344,7 @@ textures/shared_colors/magenta_nonsolid
 	surfaceparm nonsolid
 
 	{
-		diffuseMap textures/shared_colors_src/magenta_d
+		map textures/shared_colors_src/magenta_d
 	}
 }
 
@@ -356,7 +356,7 @@ textures/shared_colors/rose
 	surfaceparm nomarks
 
 	{
-		diffuseMap textures/shared_colors_src/rose_d
+		map textures/shared_colors_src/rose_d
 	}
 }
 
@@ -369,7 +369,7 @@ textures/shared_colors/rose_nonsolid
 	surfaceparm nonsolid
 
 	{
-		diffuseMap textures/shared_colors_src/rose_d
+		map textures/shared_colors_src/rose_d
 	}
 }
 
@@ -386,7 +386,7 @@ gfx/shared_colors/transparent
 	surfaceparm trans
 
 	{
-		diffuseMap textures/shared_colors_src/transparent_d
+		map textures/shared_colors_src/transparent_d
 		blendFunc blend
 	}
 }
@@ -402,7 +402,7 @@ gfx/shared_colors/transparent_nonsolid
 	surfaceparm trans
 
 	{
-		diffuseMap textures/shared_colors_src/transparent_d
+		map textures/shared_colors_src/transparent_d
 		blendFunc blend
 	}
 }

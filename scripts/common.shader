@@ -40,7 +40,7 @@ textures/common/black
 	surfaceparm nomarks
 
 	{
-		diffuseMap textures/shared_colors_src/black_d
+		map textures/shared_colors_src/black_d
 	}
 }
 
