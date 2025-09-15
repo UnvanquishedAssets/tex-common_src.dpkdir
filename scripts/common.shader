@@ -40,7 +40,7 @@ textures/common/black
 	surfaceparm nomarks
 
 	{
-		map textures/shared_colors_src/black_d
+		map $black
 	}
 }
 
@@ -154,11 +154,6 @@ textures/common/invisible
 
 	surfaceparm nolightmap
 	surfaceparm trans
-
-	{
-		map textures/shared_colors_src/transparent_d
-		alphaFunc GE128
-	}
 }
 
 // An invsible surface that players can climb on.

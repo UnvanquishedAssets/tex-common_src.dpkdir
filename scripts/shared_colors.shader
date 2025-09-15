@@ -6,7 +6,7 @@ textures/shared_colors/black
 	surfaceparm nomarks
 
 	{
-		map textures/shared_colors_src/black_d
+		map $black
 	}
 }
 
@@ -19,7 +19,7 @@ textures/shared_colors/black_nonsolid
 	surfaceparm nonsolid
 
 	{
-		map textures/shared_colors_src/black_d
+		map $black
 	}
 }
 
@@ -56,7 +56,7 @@ textures/shared_colors/white
 	surfaceparm nomarks
 
 	{
-		map textures/shared_colors_src/white_d
+		map $white
 	}
 }
 
@@ -69,7 +69,7 @@ textures/shared_colors/white_nonsolid
 	surfaceparm nonsolid
 
 	{
-		map textures/shared_colors_src/white_d
+		map $white
 	}
 }
 
@@ -81,7 +81,7 @@ textures/shared_colors/red
 	surfaceparm nomarks
 
 	{
-		map textures/shared_colors_src/red_d
+		map $red
 	}
 }
 
@@ -94,7 +94,7 @@ textures/shared_colors/red_nonsolid
 	surfaceparm nonsolid
 
 	{
-		map textures/shared_colors_src/red_d
+		map $red
 	}
 }
 
@@ -181,7 +181,7 @@ textures/shared_colors/green
 	surfaceparm nomarks
 
 	{
-		map textures/shared_colors_src/green_d
+		map $green
 	}
 }
 
@@ -194,7 +194,7 @@ textures/shared_colors/green_nonsolid
 	surfaceparm nonsolid
 
 	{
-		map textures/shared_colors_src/green_d
+		map $green
 	}
 }
 
@@ -281,7 +281,7 @@ textures/shared_colors/blue
 	surfaceparm nomarks
 
 	{
-		map textures/shared_colors_src/blue_d
+		map $blue
 	}
 }
 
@@ -294,7 +294,7 @@ textures/shared_colors/blue_nonsolid
 	surfaceparm nonsolid
 
 	{
-		map textures/shared_colors_src/blue_d
+		map $blue
 	}
 }
 
@@ -373,8 +373,8 @@ textures/shared_colors/rose_nonsolid
 	}
 }
 
-// The fully transparent texture with transparent editor image
-// should not be listed and selectable in editor. It can be used
+// The transparent texture that is also transparent in editor too.
+// It should not be listed and selectable in editor. It can be used
 // on model surfaces to hide them.
 gfx/shared_colors/transparent
 {
@@ -384,11 +384,6 @@ gfx/shared_colors/transparent
 	surfaceparm nolightmap
 	surfaceparm nomarks
 	surfaceparm trans
-
-	{
-		map textures/shared_colors_src/transparent_d
-		blendFunc blend
-	}
 }
 
 gfx/shared_colors/transparent_nonsolid
@@ -400,9 +395,4 @@ gfx/shared_colors/transparent_nonsolid
 	surfaceparm nomarks
 	surfaceparm nonsolid
 	surfaceparm trans
-
-	{
-		map textures/shared_colors_src/transparent_d
-		blendFunc blend
-	}
 }
