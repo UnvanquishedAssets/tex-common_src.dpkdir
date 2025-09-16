@@ -31,7 +31,8 @@ textures/shared_colors/gray
 	surfaceparm nomarks
 
 	{
-		map textures/shared_colors_src/gray_d
+		map $white
+		rgbgen const (.5 .5 .5)
 	}
 }
 
@@ -44,7 +45,8 @@ textures/shared_colors/gray_nonsolid
 	surfaceparm nonsolid
 
 	{
-		map textures/shared_colors_src/gray_d
+		map $white
+		rgbgen const (.5 .5 .5)
 	}
 }
 
@@ -81,7 +83,8 @@ textures/shared_colors/red
 	surfaceparm nomarks
 
 	{
-		map $red
+		map $white
+		rgbgen const (1 0 0)
 	}
 }
 
@@ -94,7 +97,8 @@ textures/shared_colors/red_nonsolid
 	surfaceparm nonsolid
 
 	{
-		map $red
+		map $white
+		rgbgen const (1 0 0)
 	}
 }
 
@@ -106,7 +110,8 @@ textures/shared_colors/orange
 	surfaceparm nomarks
 
 	{
-		map textures/shared_colors_src/orange_d
+		map $white
+		rgbgen const (1 .5 0)
 	}
 }
 
@@ -119,7 +124,8 @@ textures/shared_colors/orange_nonsolid
 	surfaceparm nonsolid
 
 	{
-		map textures/shared_colors_src/orange_d
+		map $white
+		rgbgen const (1 .5 0)
 	}
 }
 
@@ -131,7 +137,8 @@ textures/shared_colors/yellow
 	surfaceparm nomarks
 
 	{
-		map textures/shared_colors_src/yellow_d
+		map $white
+		rgbgen const (1 1 0)
 	}
 }
 
@@ -144,7 +151,8 @@ textures/shared_colors/yellow_nonsolid
 	surfaceparm nonsolid
 
 	{
-		map textures/shared_colors_src/yellow_d
+		map $white
+		rgbgen const (1 1 0)
 	}
 }
 
@@ -156,7 +164,8 @@ textures/shared_colors/chartreuse
 	surfaceparm nomarks
 
 	{
-		map textures/shared_colors_src/chartreuse_d
+		map $white
+		rgbgen const (.5 1 0)
 	}
 }
 
@@ -169,7 +178,8 @@ textures/shared_colors/chartreuse_nonsolid
 	surfaceparm nonsolid
 
 	{
-		map textures/shared_colors_src/chartreuse_d
+		map $white
+		rgbgen const (.5 1 0)
 	}
 }
 
@@ -181,7 +191,8 @@ textures/shared_colors/green
 	surfaceparm nomarks
 
 	{
-		map $green
+		map $white
+		rgbgen const (0 1 0)
 	}
 }
 
@@ -194,7 +205,8 @@ textures/shared_colors/green_nonsolid
 	surfaceparm nonsolid
 
 	{
-		map $green
+		map $white
+		rgbgen const (0 1 0)
 	}
 }
 
@@ -206,7 +218,8 @@ textures/shared_colors/spring
 	surfaceparm nomarks
 
 	{
-		map textures/shared_colors_src/spring_d
+		map $white
+		rgbgen const (0 1 .5)
 	}
 }
 
@@ -219,7 +232,8 @@ textures/shared_colors/spring_nonsolid
 	surfaceparm nonsolid
 
 	{
-		map textures/shared_colors_src/spring_d
+		map $white
+		rgbgen const (0 1 .5)
 	}
 }
 
@@ -231,7 +245,8 @@ textures/shared_colors/cyan
 	surfaceparm nomarks
 
 	{
-		map textures/shared_colors_src/cyan_d
+		map $white
+		rgbgen const (0 1 1)
 	}
 }
 
@@ -244,7 +259,8 @@ textures/shared_colors/cyan_nonsolid
 	surfaceparm nonsolid
 
 	{
-		map textures/shared_colors_src/cyan_d
+		map $white
+		rgbgen const (0 1 1)
 	}
 }
 
@@ -256,7 +272,8 @@ textures/shared_colors/azure
 	surfaceparm nomarks
 
 	{
-		map textures/shared_colors_src/azure_d
+		map $white
+		rgbgen const (0 .5 1)
 	}
 }
 
@@ -269,7 +286,8 @@ textures/shared_colors/azure_nonsolid
 	surfaceparm nonsolid
 
 	{
-		map textures/shared_colors_src/azure_d
+		map $white
+		rgbgen const (0 .5 1)
 	}
 }
 
@@ -281,7 +299,8 @@ textures/shared_colors/blue
 	surfaceparm nomarks
 
 	{
-		map $blue
+		map $white
+		rgbgen const (0 0 1)
 	}
 }
 
@@ -294,7 +313,8 @@ textures/shared_colors/blue_nonsolid
 	surfaceparm nonsolid
 
 	{
-		map $blue
+		map $white
+		rgbgen const (0 0 1)
 	}
 }
 
@@ -306,7 +326,8 @@ textures/shared_colors/violet
 	surfaceparm nomarks
 
 	{
-		map textures/shared_colors_src/violet_d
+		map $white
+		rgbgen const (.5 0 1)
 	}
 }
 
@@ -319,7 +340,8 @@ textures/shared_colors/violet_nonsolid
 	surfaceparm nonsolid
 
 	{
-		map textures/shared_colors_src/violet_d
+		map $white
+		rgbgen const (.5 0 1)
 	}
 }
 
@@ -331,7 +353,8 @@ textures/shared_colors/magenta
 	surfaceparm nomarks
 
 	{
-		map textures/shared_colors_src/magenta_d
+		map $white
+		rgbgen const (1 0 1)
 	}
 }
 
@@ -344,7 +367,8 @@ textures/shared_colors/magenta_nonsolid
 	surfaceparm nonsolid
 
 	{
-		map textures/shared_colors_src/magenta_d
+		map $white
+		rgbgen const (1 0 1)
 	}
 }
 
@@ -356,7 +380,8 @@ textures/shared_colors/rose
 	surfaceparm nomarks
 
 	{
-		map textures/shared_colors_src/rose_d
+		map $white
+		rgbgen const (1 0 .5)
 	}
 }
 
@@ -369,7 +394,8 @@ textures/shared_colors/rose_nonsolid
 	surfaceparm nonsolid
 
 	{
-		map textures/shared_colors_src/rose_d
+		map $white
+		rgbgen const (1 0 .5)
 	}
 }
 
