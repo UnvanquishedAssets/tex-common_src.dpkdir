@@ -208,8 +208,8 @@ textures/common/mirror
 	portal
 
 	{
-		map textures/shared_colors_src/transparent_d
-		blendfunc GL_ONE GL_ONE_MINUS_SRC_ALPHA
+		map $black
+		blendfunc GL_ZERO GL_ONE
 		depthWrite
 	}
 }
@@ -300,8 +300,8 @@ textures/common/portal
 	portal
 
 	{
-		map textures/shared_colors_src/transparent_d
-		blendfunc GL_ONE GL_ONE_MINUS_SRC_ALPHA
+		map $black
+		blendfunc GL_ZERO GL_ONE
 		depthWrite
 	}
 }
