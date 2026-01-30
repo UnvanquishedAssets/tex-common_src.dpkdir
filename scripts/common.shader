@@ -66,6 +66,16 @@ textures/common/caulk
 	surfaceparm nodraw
 }
 
+// A solid surface that doesn't get rendered but blocks visibility checks,
+// that is also not drawn on minimap.
+textures/common/skycaulk
+{
+	qer_editorImage textures/common_src/skycaulk_p
+
+	surfaceparm sky
+	surfaceparm nodraw
+}
+
 // Landing on this invisible surface will prevent fall damage.
 textures/common/cushion
 {
